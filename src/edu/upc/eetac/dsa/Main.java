@@ -4,10 +4,10 @@ public class Main {
 
     public static void main(String[] args) {
         //Instanciar objetos
-        Square s = new Square(3);
-        Rectangle r = new Rectangle(4,8);
-        Cercle c = new Cercle(4);
-        Triangle t = new Triangle(10/3,2);
+        Figura s = new Square(3);
+        Figura r = new Rectangle(4,8);
+        Figura c = new Cercle(4);
+        Figura t = new Triangle(10/3,2);
 
         //Imprimir areas por consola
         System.out.printf("Area Square: \t\t" + s.area() + "\n");
