@@ -1,8 +1,8 @@
 package edu.upc.eetac.dsa;
 
-public class Square extends Rectangle {
+public class Quadrat extends Rectangle {
     //Atributes
-    public Square(double l) {
+    public Quadrat(double l) {
         super(l, l);
     }
 
